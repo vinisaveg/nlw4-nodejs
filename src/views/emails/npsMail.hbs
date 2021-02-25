@@ -1,0 +1,50 @@
+<style>
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .value {
+        padding: 10px;
+        margin: 5px;
+        background-color: #8257e6;
+        border-radius: 4px;
+        color: #ffffff;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .answers {
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+
+<div class="container">
+    <label>Hello <strong>{{name}}</strong>! Hope you are well.</label>
+
+    <h3>{{title}}</h3>
+    <br />
+    <strong>{{description}}</strong>
+
+    <div class="answers">
+        <a class="value" href="{{link}}/0?u={{user_id}}" target="_blank">0</a>
+        <a class="value" href="{{link}}/1?u={{user_id}}" target="_blank">1</a>
+        <a class="value" href="{{link}}/2?u={{user_id}}" target="_blank">2</a>
+        <a class="value" href="{{link}}/3?u={{user_id}}" target="_blank">3</a>
+        <a class="value" href="{{link}}/4?u={{user_id}}" target="_blank">4</a>
+        <a class="value" href="{{link}}/5?u={{user_id}}" target="_blank">5</a>
+    </div>
+
+    <br />
+    <br />
+    <strong>Your opinion help us to serve the best for you.</strong>
+    <h3>Team | <strong>NLW</strong></h3>
+
+</div>
