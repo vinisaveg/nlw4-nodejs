@@ -5,7 +5,9 @@
 ### Estado da aplicação :clapper:
 
 -   [x] Setup do projeto
--   [ ] API do projeto
+-   [x] API do projeto
+-   [x] Testes unitários
+-   [x] Testes de integração
 
 ### Instalação :construction_worker:
 
@@ -21,5 +23,40 @@
 
 ```
     yarn install
+
+```
+
+3. Rode as migrations
+
+```
+    yarn typeorm migration:run
+
+```
+
+4. Teste a aplicação
+
+```
+    yarn test
+
+```
+
+5. Inicie a aplicação em desenvolvimento
+
+```
+    yarn dev
+
+```
+
+6. Faça o build da aplicação
+
+```
+    yarn build
+
+```
+
+7. Inicie a aplicação em produção
+
+```
+    yarn start
 
 ```
