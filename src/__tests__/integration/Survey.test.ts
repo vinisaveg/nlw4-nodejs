@@ -1,9 +1,9 @@
 import request from "supertest";
 import { getConnection } from "typeorm";
 
-import { app } from "../server";
+import { app } from "../../server";
 
-import createConnection from "../database";
+import createConnection from "../../database";
 
 describe("Survey", () => {
     beforeAll(async () => {

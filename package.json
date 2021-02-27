@@ -12,7 +12,8 @@
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js",
     "build": "tsc",
     "start": "node build/index.js",
-    "test": "NODE_ENV=test jest -i"
+    "test": "NODE_ENV=test jest -i integration",
+    "unit": "jest unit"
   },
   "dependencies": {
     "express": "^4.17.1",
